@@ -1,7 +1,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/n6tfm0c831ns/repositories/rachelbatson.com
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp bootstrap-comingsoon.css $DEPLOYPATH
-    
+    - /bin/cp home.html $DEPLOYPATH
+    - /bin/cp layout-styles.css $DEPLOYPATH
+
